@@ -166,4 +166,15 @@ def check_market_update():
 
 if __name__ == "__main__":
     handle_subscriptions()
-    check_market_update()
+
+    test_message = (
+        "📊 UZNF — London Stock Exchange\n\n"
+        "🔔 ТЕСТОВОЕ СООБЩЕНИЕ\n\n"
+        "Цена открытия: 1250\n"
+        "Цена закрытия: 1260\n"
+        "Максимум: 1270\n"
+        "Минимум: 1240\n"
+        "Объём: 58240"
+    )
+
+    send_to_all(test_message)
