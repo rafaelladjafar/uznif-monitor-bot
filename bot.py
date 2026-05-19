@@ -167,8 +167,3 @@ def check_market_update():
 if __name__ == "__main__":
     handle_subscriptions()
     check_market_update()
-        "Минимум: 1240\n"
-        "Объём: 58240"
-    )
-
-    send_to_all(test_message)
